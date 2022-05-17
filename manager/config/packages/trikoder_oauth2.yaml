@@ -8,10 +8,6 @@ trikoder_oauth2:
         encryption_key_type: 'plain'
         access_token_ttl: PT1H
         refresh_token_ttl: P1M
-        enable_client_credentials_grant: true
-        enable_password_grant: true
-        enable_refresh_token_grant: true
-        auth_code_ttl: PT10M
 
     resource_server:
         public_key: '%env(OAUTH_PUBLIC_KEY)%'

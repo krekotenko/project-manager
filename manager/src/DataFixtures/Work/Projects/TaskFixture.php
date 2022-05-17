@@ -13,7 +13,7 @@ use App\Model\Work\Entity\Projects\Task\Task;
 use App\Model\Work\Entity\Projects\Task\Type;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Faker\Factory;
 use Faker\Generator;
 

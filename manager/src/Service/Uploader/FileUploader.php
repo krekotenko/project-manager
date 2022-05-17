@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Service\Uploader;
 
-use League\Flysystem\FilesystemInterface;
+use League\Flysystem\Filesystem;
 use Ramsey\Uuid\Uuid;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
@@ -13,7 +13,7 @@ class FileUploader
     private $storage;
     private $basUrl;
 
-    public function __construct(FilesystemInterface $storage, string $basUrl)
+    public function __construct(Filesystem $storage, string $basUrl)
     {
         $this->storage = $storage;
         $this->basUrl = $basUrl;

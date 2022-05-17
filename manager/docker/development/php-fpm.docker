@@ -1,4 +1,4 @@
-FROM php:7.3-fpm
+FROM allansimon/php8-fpm-postgresql
 
 RUN pecl install -o -f redis \
     && rm -rf /tmp/pear \

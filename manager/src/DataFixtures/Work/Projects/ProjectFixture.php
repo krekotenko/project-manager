@@ -12,7 +12,7 @@ use App\Model\Work\Entity\Projects\Project\Project;
 use App\Model\Work\Entity\Projects\Project\Id;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 
 class ProjectFixture extends Fixture implements DependentFixtureInterface
 {
